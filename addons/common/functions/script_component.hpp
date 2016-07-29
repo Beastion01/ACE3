@@ -6,7 +6,7 @@
 
 #define ERRORDATA(c)    private ["_callFrom", "_lineNo"];\
                         _callFrom = "";\
-                        _lineNo = - 1;\
+                        _lineNo = -1;\
                         if((count _this) > c) then {\
                             _callFrom = _this select c;\
                             _lineNo = _this select c+1;\
